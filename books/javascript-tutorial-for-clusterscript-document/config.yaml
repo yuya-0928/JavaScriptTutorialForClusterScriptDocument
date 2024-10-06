@@ -1,8 +1,9 @@
 title: "cluster スクリプトで作って学ぶ、JavaScript 入門"
 summary: "clusterスクリプトでギミック開発をしたい！だけど、JavaScript触ったことがないから何もわからない。という方向けに、作りながらJavaScriptを学ぶことができる本です。"
-topics: []
+topics: [JavaScript, cluster, 初心者向け, Cluster Creator Kit Script, clusterスクリプト]
 published: false
 price: 0 # 有料の場合200〜5000
 # 本に含めるチャプターを順番に並べましょう
 chapters:
   - chapter1
+  - chapter2
