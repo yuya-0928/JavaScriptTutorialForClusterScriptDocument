@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "preview": "zenn preview",
+    "new:article": "zenn new:article",
+    "new:book": "zenn new:book"
+  },
   "dependencies": {
     "zenn-cli": "^0.1.157"
   }
