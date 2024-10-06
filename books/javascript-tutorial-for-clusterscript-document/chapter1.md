@@ -13,6 +13,7 @@ title: "はじめに"
 
 ## 進め方
 このプロジェクトでは、既に作成済みのUnityプロジェクトにコードを書き加えながらJavaScriptについて学んでいきます。
+(現在準備中)
 https://github.com/yuya-0928/JavaScriptTutorialForClusterScriptUnityProject
 chapter2で、ダウンロードから準備までの流れを説明します。
 
