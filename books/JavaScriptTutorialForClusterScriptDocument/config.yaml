@@ -1,0 +1,9 @@
+title: "cluster スクリプトで作って学ぶ、JavaScript 入門"
+summary: "clusterスクリプトでギミック開発をしたい！だけど、JavaScript触ったことがないから何もわからない。という方向けに、作りながらJavaScriptを学ぶことができる本です。"
+topics: []
+published: false
+price: 0 # 有料の場合200〜5000
+# 本に含めるチャプターを順番に並べましょう
+chapters:
+  - example1
+  - example2
