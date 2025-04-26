@@ -15,21 +15,61 @@ ClustesGuideの「第1.5回：Unityを導入する」から「第2回：Cluster 
 - Unity Hubを経由して、Unity 2021.3.4f1をダウンロードする
 	- Unityダウンロード時は、必要な追加モジュールをダウンロードしておく（Android Build Supportなど）
 
-## 使用するエディタについて
+## チュートリアルプロジェクトをダウンロードしてUnityで開こう
+このチュートリアルでは、事前に用意したUnityプロジェクトを実際に触りながら、JavaScriptについて学びます。
+
+Unityプロジェクトは、GithubというWebサービスで配布をしています。
+
+### Githubからプロジェクトをダウンロードしよう
+以下のリンクにアクセスしてください。
+https://github.com/yuya-0928/JavaScriptTutorialForClusterScriptUnityProject
+
+こちらのページで、緑色の｢Code｣ボタンをクリックし、出てくるメニューのボタンの中の｢Download ZIP｣を選択して、プロジェクトをダウンロードしてください。
+
+![Githubの画面](./images/image3.png)
+
+Zip形式でダウンロードされますので、Zipを解凍して、自分の好きな場所にファイルを保存してください。
+
+### UnityHubからダウンロードしたプロジェクトを開こう
+
+
+
+## エディタを準備しよう
 コードを書くソフトウェアのことエディタと表現しています。
 このドキュメントでは、自由なエディタを使って開発を進められるように書いています。
 自分の使いやすいエディタを使ってください。
 
-ただ、コードを書くうえで便利なツールがあります。
-以下では、代表的なエディタを紹介します。
+このチュートリアルでは、Visual Studio Codeを前提に解説を進めていきます。
+以下の項では、Visual Studio Codeの解説と導入の手順を説明します。
 
-### Visual Studio
-Unityをインストールする際に、必ず自動でインストールされているエディタです。
-デフォルト設定のままであれば、自動でこのエディタが開く状態になります。
-
-
-ちなみに、Unityは標準でVisual Studio、Visual Studio Code (VSCode)、JetBrains Riderのエディタが利用できます。
+Unityは標準でVisual Studio、Visual Studio Code (VSCode)、JetBrains Riderのエディタが利用できます。いくつかのエディタについては解説を省きますが、もし興味がありましたら調べてみると良いと思います。
 https://docs.unity3d.com/ja/2021.3/Manual/Preferences.html#external-tools
+
+### Visual Studio Codeとは？
+
+数あるコードエディタソフトの一つです。様々な拡張機能を導入することで便利に開発を進めることができます。
+
+### Visual Studio Codeのインストール方法
+
+Visual Studio Codeは以下のリンクからダウンロードできます
+https://code.visualstudio.com/download
+
+![ダウンロード画面](./images/image1.png)
+
+Windowsを使っている場合はWindowsのロゴが書かれているボタンをクリックしてください。
+Macを使っている場合はまMacのロゴが書かれているボタンをクリックしてください。
+
+ダウンロードが終わったら、アプリを起動してみて、実際に使えるかどうか確認をしてみてください。
+
+### UnityでVisual Studio Codeを利用できるようにするための設定
+
+Unityはデフォルトだと、Visual Studioという別のエディタを使うように設定がされています。Visual Studio Codeを使う場合は、この設定を変更する必要があります。
+
+Unityを開き、画面上部から Edit > Preferences > External Toolsの中にある、External Script Editorの設定を変更します。
+
+![VisualStudioCodeの設定画面](./images/image2.png)
+
+
 
 ---
 このドキュメントは、現在執筆中です。コントリビューション大歓迎です。
