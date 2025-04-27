@@ -2,9 +2,6 @@
 title: "環境構築"
 ---
 
-<!-- TODO：テンプレートをダウンロードして、JavaScriptを書く準備までをまとめる。 -->
-<!-- TODO：テンプレートプロジェクトを用意する -->
-
 ## Unityの環境構築がまだの場合
 Unityのダウンロード方法・Unityの環境構築については、以下のリンクからをClustesGuideを確認してください。
 https://creator.cluster.mu/cck-worldcreatetutroial-home/
@@ -26,12 +23,20 @@ https://github.com/yuya-0928/JavaScriptTutorialForClusterScriptUnityProject
 
 こちらのページで、緑色の｢Code｣ボタンをクリックし、出てくるメニューのボタンの中の｢Download ZIP｣を選択して、プロジェクトをダウンロードしてください。
 
-![Githubの画面](./images/image3.png)
+![Githubの画面](./images/chapter2//image3.png)
 
 Zip形式でダウンロードされますので、Zipを解凍して、自分の好きな場所にファイルを保存してください。
 
 ### UnityHubからダウンロードしたプロジェクトを開こう
 
+ダウンロードしたファイルをUnityHubから開きましょう。
+UnityHubを開き、画面上部のメニューから、Add > Add project from disk を選択し、先ほどダウンロードしたプロジェクトを選択します。
+先ほどダウンロードしたプロジェクトを選択する場合、JavaScriptTutorialForClusterScriptUnityProject-mainの下にもう一つJavaScriptTutorialForClusterScriptUnityProject-mainというディレクトリがあります。そちらを選択してください
+
+![UnityHub](./images/chapter2/image4.png)
+
+すると、JavaScriptTutorialForClusterScriptUnityProject-mainというプロジェクトがUnityHubに追加されるので、それを選択してください。
+Unityが開きます。
 
 
 ## エディタを準備しよう
@@ -54,7 +59,7 @@ https://docs.unity3d.com/ja/2021.3/Manual/Preferences.html#external-tools
 Visual Studio Codeは以下のリンクからダウンロードできます
 https://code.visualstudio.com/download
 
-![ダウンロード画面](./images/image1.png)
+![ダウンロード画面](./images/chapter2//image1.png)
 
 Windowsを使っている場合はWindowsのロゴが書かれているボタンをクリックしてください。
 Macを使っている場合はまMacのロゴが書かれているボタンをクリックしてください。
@@ -67,7 +72,7 @@ Unityはデフォルトだと、Visual Studioという別のエディタを使�
 
 Unityを開き、画面上部から Edit > Preferences > External Toolsの中にある、External Script Editorの設定を変更します。
 
-![VisualStudioCodeの設定画面](./images/image2.png)
+![VisualStudioCodeの設定画面](./images/chapter2//image2.png)
 
 
 
