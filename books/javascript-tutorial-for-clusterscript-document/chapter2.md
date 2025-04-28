@@ -23,7 +23,7 @@ https://github.com/yuya-0928/JavaScriptTutorialForClusterScriptUnityProject
 
 こちらのページで、緑色の｢Code｣ボタンをクリックし、出てくるメニューのボタンの中の｢Download ZIP｣を選択して、プロジェクトをダウンロードしてください。
 
-![Githubの画面](./images/chapter2//image3.png)
+![Githubの画面](/images/chapter2/image3.png)
 
 Zip形式でダウンロードされますので、Zipを解凍して、自分の好きな場所にファイルを保存してください。
 
@@ -33,7 +33,7 @@ Zip形式でダウンロードされますので、Zipを解凍して、自分�
 UnityHubを開き、画面上部のメニューから、Add > Add project from disk を選択し、先ほどダウンロードしたプロジェクトを選択します。
 先ほどダウンロードしたプロジェクトを選択する場合、JavaScriptTutorialForClusterScriptUnityProject-mainの下にもう一つJavaScriptTutorialForClusterScriptUnityProject-mainというディレクトリがあります。そちらを選択してください
 
-![UnityHub](./images/chapter2/image4.png)
+![UnityHub](/images/chapter2/image4.png)
 
 すると、JavaScriptTutorialForClusterScriptUnityProject-mainというプロジェクトがUnityHubに追加されるので、それを選択してください。
 Unityが開きます。
@@ -59,7 +59,7 @@ https://docs.unity3d.com/ja/2021.3/Manual/Preferences.html#external-tools
 Visual Studio Codeは以下のリンクからダウンロードできます
 https://code.visualstudio.com/download
 
-![ダウンロード画面](./images/chapter2//image1.png)
+![ダウンロード画面](/images/chapter2/image1.png)
 
 Windowsを使っている場合はWindowsのロゴが書かれているボタンをクリックしてください。
 Macを使っている場合はまMacのロゴが書かれているボタンをクリックしてください。
@@ -72,9 +72,14 @@ Unityはデフォルトだと、Visual Studioという別のエディタを使�
 
 Unityを開き、画面上部から Edit > Preferences > External Toolsの中にある、External Script Editorの設定を変更します。
 
-![VisualStudioCodeの設定画面](./images/chapter2//image2.png)
+プルダウンを選択すると、選択候補の中にVisual Studio Codeがあるので、そちらを選択してください。
+もしVisual Studio Codeの項目がない場合は、Unityを再起動してみてください。
 
+![VisualStudioCodeの設定画面](/images/chapter2/image2.png)
 
+## 環境構築完了!
+ここまでの手順が全てできたら、環境構築は完了です。
+次の章からは、実際にコードを書きながらJavaScriptを勉強していきましょう!
 
 ---
 このドキュメントは、現在執筆中です。コントリビューション大歓迎です。
