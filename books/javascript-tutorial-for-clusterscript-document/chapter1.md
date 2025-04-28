@@ -1,5 +1,5 @@
 ---
-title: "はじめに"
+title: "Chapter1 はじめに"
 ---
 
 「clusterスクリプトで作って学ぶ、JavaScript入門」を読んでいただきありがとうございます。

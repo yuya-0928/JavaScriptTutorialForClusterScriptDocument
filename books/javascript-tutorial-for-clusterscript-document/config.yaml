@@ -7,3 +7,5 @@ price: 0 # 有料の場合200〜5000
 chapters:
   - chapter1
   - chapter2
+  - chapter3-0
+  - chapter3-1
